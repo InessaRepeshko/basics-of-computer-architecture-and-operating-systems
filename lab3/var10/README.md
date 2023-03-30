@@ -27,7 +27,7 @@ gcc -std=c11 -Wall -Wextra -Werror -Wpedantic prog4.c -o prog4
 ./prog3 2 1 2 3 4
 ./prog3 3 1 2 3 4 5 6 7 8 9
 
-./prog4 ./prog3 2 1 2 3
+./prog4 ./prog3 2 1 2 3 9
 ```
 
 # Examples of program results
@@ -51,6 +51,6 @@ gcc -std=c11 -Wall -Wextra -Werror -Wpedantic prog4.c -o prog4
 ![prog3](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab3/var10/screens/prog3.png)
 
 ```
-./prog4 ./prog3 2 1 2 3
+./prog4 ./prog3 2 1 2 3 9
 ```
 ![prog4](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab3/var10/screens/prog4.png)
