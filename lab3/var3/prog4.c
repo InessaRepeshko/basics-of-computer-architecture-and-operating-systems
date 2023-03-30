@@ -6,7 +6,7 @@
 /*Commands for running:
 gcc -std=c11 -Wall -Wextra -Werror -Wpedantic prog4.c -o prog4
 ./prog4 ./prog3 15
-Adding the following line: Process exited with 0/1 status.*/
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

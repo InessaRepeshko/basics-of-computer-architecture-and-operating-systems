@@ -8,7 +8,7 @@
 gcc -std=c11 -Wall -Wextra -Werror -Wpedantic prog2.c -o prog2
 ./prog2 test_arg
 ./prog2 ./prog1
-Adding the following output: arguments + all described ID's*/
+*/
 
 #include <stdio.h>
 #include <unistd.h>

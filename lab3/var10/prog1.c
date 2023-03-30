@@ -11,8 +11,7 @@
 gcc -std=c11 -Wall -Wextra -Werror -Wpedantic prog1.c -o prog1
 ./prog1 -f ./prog3 2 1 2 3 4
 ./prog1 -w ls ..
-Adding the following output: "Attempt to run the descendant with pid=..." or "Process exited with status 0"
- + "Press <Enter> to exit:"*/
+ */
 
 #include <stdio.h>
 #include <stdlib.h>

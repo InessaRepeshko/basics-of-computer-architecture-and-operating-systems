@@ -10,7 +10,7 @@ gcc -std=c11 -Wall -Wextra -Werror -Wpedantic prog3.c -o prog3
 ./prog3 12
 ./prog3 780
 ./prog3 1991
-Adding the following output: output with number in words */
+*/
 
 /* C program to print a given number in words. The program handles numbers from 0 to 9999 */
 #include <stdio.h>

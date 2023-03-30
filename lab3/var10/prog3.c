@@ -3,16 +3,15 @@
 вычисляет сумму элементов, лежащих на главной и побочной диагоналях, и выводит на экран.
  Вторая программа запускает первую в качестве вновь созданного процесса.*/
 
-/* C program to print the sum of the elements on the main and side diagonals.
-The program works with singed numbers from -999 to 9999.*/
-
 /*Commands for running:
 gcc -std=c11 -Wall -Wextra -Werror -Wpedantic prog3.c -o prog3
 ./prog3 1 1
 ./prog3 2 1 2 3 4
 ./prog3 3 1 2 3 4 5 6 7 8 9
-Adding the following output: output with matrix data + results of calculating.*/
+ */
 
+/* C program to print the sum of the elements on the main and side diagonals.
+The program works with singed numbers from -999 to +999 or from 0 to 9999.*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -26,8 +25,8 @@ int main(int argc, char *argv[]) {
     //Checking the count of passed arguments.
     if (argc < 3
         || argc - 2 < size * size
-        || (argc != 3
-            && size != 1)) {
+        || (size == 1
+            && argc != 3)) {
         fprintf(stderr, "There are too few arguments.\n"
                "Usage: %s <size_of_square_matrix> <element_of_matrix> ...\n", argv[0]);
         exit(1);
