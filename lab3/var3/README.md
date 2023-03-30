@@ -59,3 +59,5 @@ gcc -std=c11 -Wall -Wextra -Werror -Wpedantic prog4.c -o prog4
 ./prog4 ./prog3 15
 ```
 ![prog4](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab3/var3/screens/prog4.png)
+
+© Inessa Repeshko. 2023
