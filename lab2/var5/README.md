@@ -25,3 +25,5 @@ make
 ./lab2
 ```
 ![results_var5](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab2/var5/screens/results_var5.png)
+
+© Inessa Repeshko. 2023
