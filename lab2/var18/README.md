@@ -1,10 +1,26 @@
-Lab. work № 2 of Basics of computer architecture and operating systems.
+# Description
+Lab work № 2 "Creating and compiling a simple program" of Basics of computer architecture and operating systems.
 
-The original condition of the task:
+**Task description:**
 
 Разработать и отладить программный проект (2 или больше исходных файла, взаимосвязанных между собой) в среде Linux (c использованием компилятора gcc/g++, менеджера проектов make и отладчика gdb).  Програмный проект должен реализовывать набор взаимосвязанных модулей, использующих стандартный ввод-вывод.  
 Составить программу для нахождения значений выражений А и В по заданным значениям исходных данных x,y,z. Функции для нахождения А и В должны быть описаны в различных файлах.
 
 Исходные данные: вариант № 18:
-* A = 5 * arctgx - 0.25 * arctgy;
-* B = (x + 3 * |x - y| + x^(2)) / (|x - y|^(z) + z^(2)).
+![var18](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/tree/main/lab2/var18/screens/var18.png)
+
+# Commands to run
+```
+make
+make LAB2
+make clean
+make uninstall
+make reinstall
+```
+
+# Examples of program results
+```
+make
+./LAB2
+```
+![results_var18](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/tree/main/lab2/var18/screens/results_var18.png)
