@@ -7,7 +7,7 @@ Lab work № 2 "Creating and compiling a simple program" of Basics of computer a
 Составить программу для нахождения значений выражений А и В по заданным значениям исходных данных x,y,z. Функции для нахождения А и В должны быть описаны в различных файлах.
 
 Исходные данные: вариант № 18:
-![var18](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/tree/main/lab2/var18/screens/var18.png)
+![var18](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab2/var18/screens/var18.png)
 
 # Commands to run
 ```
@@ -23,4 +23,4 @@ make reinstall
 make
 ./LAB2
 ```
-![results_var18](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/tree/main/lab2/var18/screens/results_var18.png)
+![results_var18](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab2/var18/screens/results_var18.png)
