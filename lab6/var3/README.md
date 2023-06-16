@@ -23,11 +23,8 @@ gcc -std=c11 -Wall -Wextra -Werror -Wpedantic client.c -o client
 ```
 gcc -std=c11 -Wall -Wextra -Werror -Wpedantic server.c -o server
 ./server
-./server
-./server
-
 ```
-![server](serverhttps://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab6/var10/screens/server.png)
+![server](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab6/var3/screens/server.png)
 
 ```
 gcc -std=c11 -Wall -Wextra -Werror -Wpedantic client.c -o client
@@ -38,6 +35,6 @@ gcc -std=c11 -Wall -Wextra -Werror -Wpedantic client.c -o client
 ./client
 -234
 ```
-![client](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab6/var10/screens/client.png)
+![client](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab6/var3/screens/client.png)
 
 © Inessa Repeshko. 2023
