@@ -36,7 +36,7 @@ kill –USR1 30441
 tail -f /var/log/system.log
 ps -jx | grep 'PID\|prog'
 ```
-![prog1_1]()
+![prog1_1](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab4/screens/prog1_1.png)
 
 ```
 ./prog1
@@ -44,7 +44,7 @@ kill –INT 30490
 tail -f /var/log/system.log
 ps -jx | grep 'PID\|prog'
 ```
-![prog1_2]()
+![prog1_2](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab4/screens/prog1_2.png)
 
 ```
 ./prog1
@@ -53,7 +53,7 @@ ps -jx | grep 'PID\|prog'
 tail -f /var/log/system.log
 ps -jx | grep 'PID\|prog'
 ```
-![prog2_1]()
+![prog2_1](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab4/screens/prog2_1.png)
 
 ```
 ./prog1
@@ -62,6 +62,6 @@ ps -jx | grep 'PID\|prog'
 tail -f /var/log/system.log
 ps -jx | grep 'PID\|prog'
 ```
-![prog2_2]()
+![prog2_2](https://github.com/InessaRepeshko/basics-of-computer-architecture-and-operating-systems/blob/main/lab4/screens/prog2_2.png)
 
 © Inessa Repeshko. 2023
