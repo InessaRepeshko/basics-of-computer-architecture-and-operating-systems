@@ -1,3 +1,7 @@
+# Overview
+The discipline "Fundamentals of Computer Architecture and Operating Systems" is devoted to the basic principles of functioning of the hardware of modern computers. The functions of the operating system for managing applications and managing computer resources, such as RAM and input/output devices, are considered.
+
+
 # Description
 The repository contains the results of the Laboratory works for the course "Basics of computer architecture and operating systems" during studies at National Technical University  "Kharkiv Polytechnic Institute".
 
